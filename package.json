@@ -1,0 +1,23 @@
+{
+  "name": "atm-module-13-automated-testing-of-mobile-apps",
+  "version": "1.0.0",
+  "description": "Automated Testing of Mobile Applications",
+  "main": "index.js",
+  "scripts": {
+    "mobile-chrome": "protractor ./test/config/protractor.mobile-chrome.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeryiaStrom/ATM-module-13-Automated-Testing-of-Mobile-Apps.git"
+  },
+  "author": "Valeryia Strom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeryiaStrom/ATM-module-13-Automated-Testing-of-Mobile-Apps/issues"
+  },
+  "homepage": "https://github.com/valeryiaStrom/ATM-module-13-Automated-Testing-of-Mobile-Apps#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
