@@ -9,7 +9,7 @@ describe(`A1.by`, () => {
   it(`page title should be ${expectedPageTitle}`, async () => {
     await browser.get('https://www.a1.by');
     const pageTitle = await browser.getTitle();
-    expect(pageTitle).to.equal(`A1 - провайдер телеком-, ИКТ- и контент-услуг`);
+    expect(pageTitle).to.equal(`${expectedPageTitle}`);
   });
 
   it(`should habe 4 menu items`, async () => {
